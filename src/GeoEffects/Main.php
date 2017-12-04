@@ -22,7 +22,7 @@ class Main extends PluginBase{
 		
 		switch($cmd->getName()){
 			
-			case "clear":
+			case "cinventory":
 				if($sender instanceof Player){
 					$sender->getInventory()->clearAll();
 				}
