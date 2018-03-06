@@ -11,11 +11,11 @@ use pocketmine\entity\Effect;
 class Main extends PluginBase{
 	
 	public function onEnable(){
-		$this->getServer()->getLogger()->info("GeoEffects enabled!");
+		$this->getServer()->getLogger()->info("GeoEffects is now enabled!");
 	}
 	
 	public function onDisable(){
-		$this->getServer()->getLogger()->info("GeoEffects disabled!");
+		$this->getServer()->getLogger()->info("GeoEffects is now disabled!");
 	}
 	
 	public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool {
